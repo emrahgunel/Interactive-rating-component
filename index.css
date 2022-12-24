@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    margin: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-container, .thank-you {
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 0.625rem;
+    width: 40%;
+}
+
+.main-container img {
+    background-color: hsl(216, 12%, 54%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.main-container h1 {
+    color: white;
+    margin: 2rem 0 1rem;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.main-container p {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1rem;
+}
+
+.main-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.main-container ul li button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background-color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+
+.main-container ul li button:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.main-container ul li button:focus {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    padding: 0.5rem 0 0.4rem;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-you img {
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.thank-you h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.thank-you p {
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.thank-you p.gray {
+    background-color:  hsl(215, 21%, 46%);
+    padding: 0 0.9rem;
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%);
+    margin-bottom: 2rem;
+}
+
+.hidden {
+    display: none;
+}
